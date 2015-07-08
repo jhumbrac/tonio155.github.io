@@ -2,13 +2,13 @@ body {
 	background: blue;
 }
 
-h1, h3 {
+h1, h3, a {
 	color: blue;
 	background: yellow;
 }
 
 p {
 	color: red;
-	background: purple;
+	background: green;
 
 }
