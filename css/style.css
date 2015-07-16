@@ -1,14 +1,142 @@
 body {
-	background: blue;
+	background-color: #616e85;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #d4d4d5;
+	margin: 0;
 }
 
-h1, h3, a {
+/*.wrapper {
+	background-color: rgba(255,255,255,0.5);
+}*/
+
+.main {
+	background-color: white;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 20px;
+	box-shadow: 0 0 10px 2px black;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+h1 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Roboto', sans-serif;
+	/*text-shadow: 10px 10px 10px rgba(255,0,0,0.6);*/
+}
+
+h2 {
+	text-align: center!important;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-family: 'Roboto', sans-serif;
+}
+
+h3 {cursor: pointer;
+	margin-top: 0;
+}
+
+.avatar {
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 5px solid gray;
+	border-radius: 50% 50% 50%;
+
+}
+
+@media screen and (min-width: 500px) {
+     .avatar {
+     	width: 200px;
+     }
+     h1 {
+     	font-size: 60px
+     }
+     h2 {
+     	color: #d4d4d4;
+     }
+}
+
+/* Second part*/
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+.web {
+	text-align: center;
+}
+.web li {
+	margin-bottom: 10px;
+}
+
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #bada55;
+}
+a:hover {
+	text-decoration: underline;
+	color: gray;
+}
+a:focus {
+	text-decoration: underline;
 	color: blue;
-	background: yellow;
 }
 
-p {
-	color: red;
-	background: green;
+.twitter {
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 5px solid gray;
+	border-radius: 50% 50% 50%;
+}
 
+.flickr {
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 5px solid gray;
+	border-radius: 50% 50% 50%;
+}
+.facebook {
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 5px solid gray;
+	border-radius: 50% 50% 50%;
+}
+.column {
+	/*background-color: white;*/
+	width: 33.333%;
+	/*border: 2px solid blue;*/
+	padding: 10px;
+	border-right: 2px solid black;
+	box-sizing: border-box;
+	float: left;
+}
+
+.column:last-child {
+	border-right: none;
+}
+
+.main {
+	overflow: hidden;
 }
