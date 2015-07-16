@@ -5,7 +5,11 @@ body {
 	background-attachment: fixed;
 	background-position: 50% 50%;
 	font-family: Helvetica, Arial, sans-serif;
+<<<<<<< HEAD
 	color: #d4d4d5;
+=======
+	color: #d4d4d4;
+>>>>>>> origin/master
 	margin: 0;
 }
 
@@ -66,7 +70,11 @@ h3 {cursor: pointer;
      }
 }
 
+<<<<<<< HEAD
 /* Second part*/
+=======
+/* Comment in CSS */
+>>>>>>> origin/master
 
 p,
 ul,
