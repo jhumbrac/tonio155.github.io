@@ -1,3 +1,4 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #616e85;
 	background-image: url(../images/bg.jpg);
@@ -5,34 +6,29 @@ body {
 	background-attachment: fixed;
 	background-position: 50% 50%;
 	font-family: Helvetica, Arial, sans-serif;
-<<<<<<< HEAD
-	color: #d4d4d5;
-=======
 	color: #d4d4d4;
->>>>>>> origin/master
-	margin: 0;
 }
 
 /*.wrapper {
 	background-color: rgba(255,255,255,0.5);
 }*/
 
-.main {
-	background-color: white;
+main {
 	background-color: rgba(0,0,0,0.6);
 	border-radius: 20px;
 	box-shadow: 0 0 10px 2px black;
+	overflow: hidden;
 	max-width: 600px;
 	margin: 0 auto;
 	padding: 40px;
 }
 
 h1 {
-	text-align: center;
 	font-weight: normal;
-	text-transform: uppercase;
-	letter-spacing: 2px;
 	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
 	/*text-shadow: 10px 10px 10px rgba(255,0,0,0.6);*/
 }
 
@@ -44,37 +40,10 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 }
 
-h3 {cursor: pointer;
+h3 {
+	cursor: pointer;
 	margin-top: 0;
 }
-
-.avatar {
-	width: 170px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	border: 5px solid gray;
-	border-radius: 50% 50% 50%;
-
-}
-
-@media screen and (min-width: 500px) {
-     .avatar {
-     	width: 200px;
-     }
-     h1 {
-     	font-size: 60px
-     }
-     h2 {
-     	color: #d4d4d4;
-     }
-}
-
-<<<<<<< HEAD
-/* Second part*/
-=======
-/* Comment in CSS */
->>>>>>> origin/master
 
 p,
 ul,
@@ -83,15 +52,6 @@ ol {
 	list-style: none;
 	padding-left: 0;
 }
-
-.web {
-	text-align: center;
-}
-.web li {
-	margin-bottom: 10px;
-}
-
-
 a {
 	text-decoration: none;
 	font-weight: bold;
@@ -105,7 +65,20 @@ a:focus {
 	text-decoration: underline;
 	color: blue;
 }
-
+.avatar {
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 5px solid gray;
+	border-radius: 50% 50% 50%;
+}
+.web {
+	text-align: center;
+}
+.web li {
+	margin-bottom: 10px;
+}
 .twitter {
 	width: 80px;
 	margin-left: auto;
@@ -143,8 +116,4 @@ a:focus {
 
 .column:last-child {
 	border-right: none;
-}
-
-.main {
-	overflow: hidden;
 }
